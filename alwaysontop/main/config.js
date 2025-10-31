@@ -15,6 +15,7 @@ module.exports = {
     frame: false,
     show: false,
     webPreferences: {
-        contextIsolation: false
+        contextIsolation: false,
+        webSecurity: false
     }
 };
